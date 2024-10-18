@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "386439708122",
+    "project_id": "laundrymobile-9335f",
+    "storage_bucket": "laundrymobile-9335f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386439708122:android:11bce399ce19ff925254e3",
+        "android_client_info": {
+          "package_name": "com.adisorndev.laundry_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386439708122-117ra1t7m1hcs4aglsf9sr3oq8dqcl6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adisorndev.laundry_mobile",
+            "certificate_hash": "45e8afc40f4afa1743d341d9ebce0701cc68fcf7"
+          }
+        },
+        {
+          "client_id": "386439708122-1ld93i7qkv4pk85s5kpspsu1gfcoes7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDLdfwb2xttHRc_lwIBCjYJHvKJwmlhrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386439708122-1ld93i7qkv4pk85s5kpspsu1gfcoes7e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "386439708122-dom8nktlusidd6d4d08irsfnlfia1j2t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adisorndev.laundryMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

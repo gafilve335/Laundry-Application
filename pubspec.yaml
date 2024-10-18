@@ -1,0 +1,102 @@
+name: laundry_mobile
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+
+environment:
+  sdk: ">=3.2.1 <4.0.0"
+
+dependencies:
+  # Firebase Packages
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  flutter_facebook_auth: ^6.0.3
+  google_sign_in: ^6.2.1
+  firebase_storage: ^11.6.0
+
+  # Scanner
+  mobile_scanner: ^3.5.7
+
+  # Product Specific
+  carousel_slider: ^4.2.1
+
+  # Utility Packages
+  url_launcher: ^6.1.12
+  flutter_spinkit: ^5.2.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.0
+  geolocator: ^10.1.0
+  map_launcher: ^3.1.0
+  path_provider: ^2.1.2
+  clipboard: ^0.1.3
+  data_table_2: ^2.5.12
+  flutter_launcher_icons: ^0.13.1
+ 
+  # Icons
+  flutter_native_splash: ^2.2.16
+  line_awesome_flutter: ^2.0.0
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+
+  # Network
+  mqtt_client: ^10.2.0
+  connectivity_plus: ^5.0.2
+  http: ^1.2.0
+
+  # State Management
+  get_storage: ^2.1.1
+  get: ^4.6.6
+
+  flutter:
+    sdk: flutter
+
+  # Device
+  device_info_plus: ^9.1.2
+  network_info_plus: ^4.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logoRemove.png"
+
+flutter:
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/logo/
+    - assets/images/home/
+    - assets/images/animations/
+    - assets/images/content/
+    - assets/privacy_md/
+
+  #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+

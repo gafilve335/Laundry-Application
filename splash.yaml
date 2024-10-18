@@ -1,0 +1,12 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/logo/logoRemove.png
+  image_dark: assets/logo/logoRemove.png
+
+  android_12:
+    image: assets/logo/logoRemove.png
+    image_dark: assets/logo/logoRemove.png
+
+web: false
+# CREATE - flutter pub run flutter_native_splash:create --path=splash.yaml
+# REMOVE - flutter pub run flutter_native_splash:remove --path=splash.yaml
