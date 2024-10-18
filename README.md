@@ -1,5 +1,3 @@
-# laundry_mobile
-## โครงสร้างโฟเดอร์ภายในแอพพลิเคชัน
 
 This project is a starting point for a Flutter application.
 
